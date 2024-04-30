@@ -18,7 +18,7 @@ public class OrangeHRM {
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 		driver.manage().window().maximize();
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		WebElement we1 = driver.findElement(By.xpath("//input[@name='username']"));
 		we1.sendKeys("Admin");
 		WebElement we2 = driver.findElement(By.xpath("//input[@name='password']"));
